@@ -1,0 +1,40 @@
+# # # # # # # # # # # # # #
+#  Alchemist in the Shell #
+# # # # # # # # # # # # # #
+
+# Basic
+name:               "Alchemist in the Shell"
+
+# URL
+baseurl:            "/alchemist"
+#baseurl:            "" #For Root Domain
+permalink:          /:year/:month/:day/:title.html
+
+# Markdown
+markdown:           rdiscount
+
+# Navigation
+nav:
+  - name:           "About"
+    href:           "//alchemist.netsnail.net/about"
+  - name:           "Github"
+    href:           "//github.com/sean-lin/"
+
+# Sass
+sass:
+  style:            :compressed
+
+# Scopes
+defaults:
+  -
+    scope:
+      path:         ""
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      path:         ""
+      type:         "posts"
+    values:
+      layout:       "post"
