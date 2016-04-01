@@ -13,7 +13,7 @@ permalink:          /:year/:month/:day/:title.html
 # Navigation
 nav:
   - name:           "About"
-    href:           "//alchemist.netsnail.net/about"
+    href:           "/about"
   - name:           "Github"
     href:           "//github.com/sean-lin/"
 
