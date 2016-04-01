@@ -20,7 +20,7 @@ mix deps.compile
 # 设置加载路径
 Elixir 是由 Erlang 的 VM 执行的，只要修改 erl 加载 beam 文件的路径，就可以让 VM 启动时，加载响应的包。 最简单修改 erl 加载路径的办法是设置环境变量 `ERL_LIBS`。我是使用 bash 的，修改了下 `.bashrc`(osx 是.bash_profile),加入
 
-```
+``` shell
 export ERL_LIBS=$HOME/.mix/global/_build/dev/lib/
 ```
 
